@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Keyboard | by Maria Serykh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Virtual Keyboard created woth HTML, CSS and JavaScript</h1>
-    <textarea class="keyboard-output" name="" id="textarea" cols="30" rows="10"></textarea>
+    <main class="main">
+        <h1 class="main__title">Virtual Keyboard created with HTML, CSS and JavaScript</h1>
+        <h2 class="main__subtitle">Windows Keyboard layout</h2>
+        <p class="main__description">Use <kbd>Shift</kbd> and <kbd>Alt</kbd> to switch language</p>
+        <textarea class="keyboard-output" id="textarea" cols="30" rows="10" placeholder="Type something"></textarea>
+        <div class="keyboard">
+            <div class="keyboard__keys">
+                <div class="keyboard-row">
+                    <button type="button" class="keyboard__key">`</button>
+                    <button type="button" class="keyboard__key keyboard__key--wide">Tab</button>
+                    <button type="button" class="keyboard__key keyboard__key--wider">Enter</button>
+                    <button type="button" class="keyboard__key keyboard__key--extra-wide">CapsLock</button>
+                    <button type="button" class="keyboard__key keyboard__key--space"></button>
+                </div>
+                <div class="keyboard-row">
+                    <button type="button" class="keyboard__key">`</button>
+                    <button type="button" class="keyboard__key keyboard__key--wide">Tab</button>
+                    <button type="button" class="keyboard__key keyboard__key--space"></button>
+                    <button type="button" class="keyboard__key keyboard__key--wider">Enter</button>
+                    <button type="button" class="keyboard__key keyboard__key--extra-wide">CapsLock</button>
+                </div>
+            </div>
+        </div>
+    </main>
+        
 
 </body>
 </html>

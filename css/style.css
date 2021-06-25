@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.main, button, textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.keyboard-output, .keyboard {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.keyboard {
+    background: #888888;
+    border: 3px solid #222222;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.keyboard__keys {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard-row {
+    display: flex;
+}
+
+.keyboard__key {
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    border-radius: 5px;
+    background: #444444;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 300;
+    padding: 0;
+    border: none;
+}
+
+.keyboard__key--wide {
+    width: 55px;
+}
+
+.keyboard__key--wider {
+    width: 90px;
+}
+
+.keyboard__key--extra-wide {
+    width: 105px;
+}
+
+.keyboard__key--space {
+    width: 280px;
+}
+
+
+.keyboard__key:active {
+    background: #2cfd72;
+    border-radius: 45px;
+}
+
